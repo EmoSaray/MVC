@@ -5,12 +5,11 @@ using System.Web;
 
 namespace WebApplication1.Models
 {
-    public class Customer
+    public class MembershipType
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public bool IsSubscript { get; set; }
-        public MembershipType MembershipType { get; set; }
-        public int MembershipTypeId { get; set; }
+        public byte Duration { get; set; }
+        public byte DiscountRate { get; set; }
     }
 }
